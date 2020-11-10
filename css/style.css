@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/********************** General Rules End **********************/
+
+/********************** Container Start **********************/
+.container{
+  width: 1000px;
+  margin: 20px auto;
+  /* delete */
+  height: 900px;
+  background-color: rgb(210, 179, 219);
+}
+/********************** Container End **********************/
+
+/********************** Header Start **********************/
+header{
+  /* delete */
+  height: 400px;
+  background-color: rgb(155, 86, 210);
+}
+
+.header-top{
+  height: 360px;
+  background-image: url(../img/natural-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 10px solid white;
+  position: relative;
+  text-align: center;
+  /* delete */
+  width: 100%;
+  background-color: rgb(193, 104, 93);
+}
+
+.header-image-logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-image-logo img{
+  width: 50%;
+}
+
+.header-image-logo h2{
+  color: white;
+  text-transform: uppercase;
+}
+/********************** Header End **********************/
+
+
+/********************** Main Start **********************/
+main{
+  /* delete */
+  height: 600px;
+  background-color: rgb(113, 100, 214);
+}
+/********************** Main End **********************/
+
+/********************** Footer Start **********************/
+footer{
+  /* delete */
+  height: 250px;
+  background-color: rgb(140, 184, 101);
+}
+/********************** Footer End **********************/
