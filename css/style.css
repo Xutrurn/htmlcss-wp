@@ -256,5 +256,10 @@ footer hr{
 
 .social-list i{
   font-size: 50px;
+  color: rgb(175, 175, 175);
+}
+
+.social-list li:hover{
+  background-color: lightgrey;
 }
 /********************** Footer End **********************/
