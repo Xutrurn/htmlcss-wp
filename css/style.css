@@ -225,12 +225,18 @@ footer{
   text-align: center;
   background-color: white;
   /* delete */
-  height: 250px;
+  /* height: 250px; */
 }
 
 .copyright{
   color: rgb(175, 175, 175);
   font-style: italic;
+}
+
+footer hr{
+  border: 0;
+  height: 1px;
+  background: rgb(175, 175, 175);
 }
 
 .social-list{
@@ -245,9 +251,10 @@ footer{
 
 .social-list li{
   width: calc(100% / 3);
+  padding: 40px;
 }
 
 .social-list i{
-  font-size: 30px;
+  font-size: 50px;
 }
 /********************** Footer End **********************/
