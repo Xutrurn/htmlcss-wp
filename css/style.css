@@ -120,6 +120,7 @@ main::after{
   clear: both;
 }
 
+/********************** Themes Start **********************/
 .themes{
   width: 20%;
   padding: 5px;
@@ -161,6 +162,32 @@ ul.themes-menu li{
   display: table;
   clear: both;
 }
+/********************** Themes End **********************/
+
+/********************** Article Start **********************/
+.articles{
+  width: 56%;
+  margin: 0 2%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+  /* delete this below */
+  /* height: 400px; */
+}
+
+section.articles h1{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px #291d1f;
+}
+
+section.articles p{
+  line-height: 30px;
+}
+/********************** Article End **********************/
+
+
+
 
 /********************** Main End **********************/
 
