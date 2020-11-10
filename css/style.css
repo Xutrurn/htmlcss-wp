@@ -45,6 +45,7 @@ body{
 header{
   /* delete this below */
   /* height: 400px; */
+  box-shadow: 0 4px 10px rgba(45,45,45,.4);
   /* background-color: rgb(155, 86, 210); */
 }
 
@@ -126,6 +127,7 @@ main::after{
   padding: 5px;
   background-color: white;
   border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(45,45,45,.4);
   /* delete this below */
   /* height: 230px; */
 }
@@ -175,6 +177,7 @@ ul.menu li a{
   padding: 15px;
   border-radius: 5px;
   background-color: white;
+  box-shadow: 0 4px 10px rgba(45,45,45,.4);
   /* delete this below */
   /* height: 400px; */
 }
@@ -203,6 +206,7 @@ section.articles p{
   padding: 20px;
   border-radius: 5px;
   background-color: white;
+  box-shadow: 0 4px 10px rgba(45,45,45,.4);
   /* delete this below */
   /* height: 230px; */
 }
@@ -224,6 +228,7 @@ footer{
   padding: 3px;
   text-align: center;
   background-color: white;
+  box-shadow: 0 4px 10px rgba(45,45,45,.4);
   /* delete */
   /* height: 250px; */
 }
@@ -235,7 +240,7 @@ footer{
 
 footer hr{
   border: 0;
-  height: 1px;
+  height: 2px;
   background: rgb(175, 175, 175);
 }
 
@@ -261,5 +266,6 @@ footer hr{
 
 .social-list li:hover{
   background-color: lightgrey;
+  cursor: pointer;
 }
 /********************** Footer End **********************/
