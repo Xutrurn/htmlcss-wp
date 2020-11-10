@@ -36,7 +36,7 @@ body{
   width: 1000px;
   margin: 20px auto;
   /* delete */
-  height: 900px;
+  /* height: 900px; */
   /* background-color: rgb(210, 179, 219); */
 }
 /********************** Container End **********************/
@@ -58,8 +58,8 @@ header{
   position: relative;
   text-align: center;
   /* delete this below */
-  width: 100%;
-  background-color: rgb(193, 104, 93);
+  /* width: 100%; */
+  /* background-color: rgb(193, 104, 93); */
 }
 
 .header-image-logo{
@@ -110,8 +110,8 @@ nav .menu li:hover{
 main{
   margin: 10px 0;
   /* delete this below*/
-  height: 600px;
-  background-color: rgb(113, 100, 214);
+  /* height: 600px; */
+  /* background-color: rgb(113, 100, 214); */
 }
 
 main::after{
@@ -157,6 +157,10 @@ ul.themes-menu li{
   margin: 5px;
 }
 
+ul.menu li a{
+  text-transform: capitalize;
+}
+
 .themes-header::after{
   content: "";
   display: table;
@@ -186,15 +190,64 @@ section.articles p{
 }
 /********************** Article End **********************/
 
+/********************** Widgets Start **********************/
+.widgets{
+  width: 20%;
+  /* delete this below */
+  /* height: 230px; */
+  /* background-color: rgb(221, 132, 94); */
+}
 
+.widget{
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  /* delete this below */
+  /* height: 230px; */
+}
 
+.widget h2{
+  margin-bottom: 20px;
+}
+
+.widget p{
+  line-height: 1.6;
+}
+/********************** Widgets End **********************/
 
 /********************** Main End **********************/
 
 /********************** Footer Start **********************/
 footer{
+  border-radius: 5px;
+  padding: 3px;
+  text-align: center;
+  background-color: white;
   /* delete */
   height: 250px;
-  background-color: rgb(140, 184, 101);
+}
+
+.copyright{
+  color: rgb(175, 175, 175);
+  font-style: italic;
+}
+
+.social-list{
+  list-style: none;
+}
+
+.social-list::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social-list li{
+  width: calc(100% / 3);
+}
+
+.social-list i{
+  font-size: 30px;
 }
 /********************** Footer End **********************/
