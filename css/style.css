@@ -3,7 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.float-left{
+  float: left;
+}
+
+a{
+  text-decoration: none;
+  color: green;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1, h2, h3{
+  color: #291d1f;
+}
 /********************** General Rules End **********************/
+
+/********************** Body Start **********************/
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url(../img/natural-pattern.png);
+  background-size: cover;
+  background-position: center;
+}
+/********************** Body End **********************/
 
 /********************** Container Start **********************/
 .container{
@@ -11,15 +37,15 @@
   margin: 20px auto;
   /* delete */
   height: 900px;
-  background-color: rgb(210, 179, 219);
+  /* background-color: rgb(210, 179, 219); */
 }
 /********************** Container End **********************/
 
 /********************** Header Start **********************/
 header{
-  /* delete */
-  height: 400px;
-  background-color: rgb(155, 86, 210);
+  /* delete this below */
+  /* height: 400px; */
+  /* background-color: rgb(155, 86, 210); */
 }
 
 .header-top{
@@ -31,7 +57,7 @@ header{
   border: 10px solid white;
   position: relative;
   text-align: center;
-  /* delete */
+  /* delete this below */
   width: 100%;
   background-color: rgb(193, 104, 93);
 }
@@ -40,7 +66,7 @@ header{
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 50%;
+  width: 60%;
   transform: translate(-50%, -50%);
 }
 
@@ -51,16 +77,91 @@ header{
 .header-image-logo h2{
   color: white;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  text-align: center;
+  background-color: #666666;
+}
+
+nav .menu{
+  list-style: none;
+}
+
+nav .menu li{
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 10px;
+}
+
+nav .menu li a{
+  color: white;
+}
+
+nav .menu li:hover{
+  background-color: lightgrey;
 }
 /********************** Header End **********************/
 
 
 /********************** Main Start **********************/
 main{
-  /* delete */
+  margin: 10px 0;
+  /* delete this below*/
   height: 600px;
   background-color: rgb(113, 100, 214);
 }
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.themes{
+  width: 20%;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  /* delete this below */
+  /* height: 230px; */
+}
+
+.themes-ico{
+  width: 20%;
+  /* delete this below */
+  /* height: 50px; */
+  /* background-color: red; */
+}
+
+.themes-ico i{
+  font-size: 30px;
+  color: orange;
+}
+
+.themes-title{
+  width: 80%;
+  /* delete this below */
+  /* height: 50px; */
+  /* background-color: green; */
+}
+
+.themes-menu{
+  list-style: none;
+}
+
+ul.themes-menu li{
+  margin: 5px;
+}
+
+.themes-header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /********************** Main End **********************/
 
 /********************** Footer Start **********************/
