@@ -83,7 +83,9 @@ header{
 
 nav{
   text-align: center;
-  background-color: #666666;
+  background-image: linear-gradient(to right bottom, #1f1b1b, #403c3f, #626166, #85898e, #aab4b6);
+  /* delete this below */
+  /* background-color: #666666; */
 }
 
 nav .menu{
@@ -103,6 +105,7 @@ nav .menu li a{
 
 nav .menu li:hover{
   background-color: lightgrey;
+  transition: background-color .15s ease-in-out;
 }
 /********************** Header End **********************/
 
@@ -160,7 +163,7 @@ ul.themes-menu li{
 }
 
 ul.menu li a{
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .themes-header::after{
@@ -266,6 +269,7 @@ footer hr{
 
 .social-list li:hover{
   background-color: lightgrey;
+  transition: background-color .15s ease-in-out;
   cursor: pointer;
 }
 /********************** Footer End **********************/
